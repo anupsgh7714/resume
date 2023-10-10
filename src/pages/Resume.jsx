@@ -5,6 +5,7 @@ import { Box, Card, CardMedia, Container, Divider, ThemeProvider, Typography,  }
 import { theme } from "./components/theme";
 import electrical from "../assets/images/electrical.png";
 import a from "../assets/images/a.jpg";
+import resume from "../assets/images/resume.png";
 import { projects } from "./components/theme";
 
 const Resume = () => {
@@ -180,8 +181,11 @@ const Resume = () => {
                                     >
                                         QR code
                                     </Typography>
-                                    <CardMedia component={"img"} height={100} width={"20rem"} image="https://picsum.photos/200" alt="qr-code"/>
-                                    <Typography textAlign={"justify"} fontSize={{xs:8, md:15}}>Scan Qr code to go online.</Typography>
+                                    <CardMedia component={"img"} height={100} sx={{
+                                        objectFit:"contain"
+                                    }} width={"20rem"} image={resume} alt="qr-code"/>
+                                    <Typography textAlign={"justify"} fontSize={{xs:8, md:15}}>Scan Qr code to go online or <a href="https://anupsgh7714.github.io/resume/">
+                                    click</a></Typography>
                                     </Box>
                                     <Divider component={"nav"} sx={{
                                         border:2,
