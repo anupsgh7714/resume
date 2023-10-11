@@ -27,8 +27,6 @@ const Resume = () => {
                         minHeight:"100vh",
                         boxShadow: "3px 3px 10px rgb(0 0 0 / 0.2)",
                         color:"#554535",
-                        // background:URL("C:\Users\LENOVO\Downloads\Untitled design.jpg"),    
-                        // backgroundImage:"C:\Users\LENOVO\Downloads\Untitled design.jpg"
                     }}
                     p={4}
                     m={{xs:0 ,md:4}}
@@ -204,7 +202,7 @@ const Resume = () => {
                                         </Typography>
                                         <Typography textAlign={"justify"} fontSize={{xs:8, md:15}}>
                                             He has done his graduation from Ymca, Haryana in B.Voc(W.D) in year 2018-2021 with 
-                                            above 9 cgpa. And passed out 12th with 80% from A.D. sr. sec schoolin 2018.
+                                            above 9 cgpa. And passed out 12th with 80% from A.D. sr. sec school in 2018.
                                             And 10th in 2016 from same school with 8.4 cgpa.
                                         </Typography>
                                     </Box>
@@ -231,6 +229,34 @@ const Resume = () => {
                                     1. <a href="https://symstech.com/">https://symstech.com/</a> 
                                     2. <a href="https://ablecharities.org/">https://ablecharities.org/</a> 
                                     
+                                </Typography>   
+                            
+                            </Box>
+                            {/* second layer     */}
+                            <Divider component={"nav"} sx={{
+                                        border:2,
+                                        my:2
+                                    }}/> 
+                            <Box>
+                            <Typography 
+                                            fontSize={{xs:12, md:20}}
+                                            textAlign={"center"}
+                                            fontWeight={700}
+                                            mb={1}
+                                        >
+                                        {projects[1].name}
+                                </Typography>
+                                <Typography 
+                                    textAlign={"justify"} 
+                                    fontSize={{xs:8, md:15}}
+                                >
+                                    <CardMedia component={"img"} sx={{
+                                        objectFit:"contain",
+                                        
+                                    }}  image={projects[1].img} />
+                                    {projects[1].text} <br />
+                                    {projects[1].text2} :
+                                    <a href={projects[1].link}>{projects[1].link}</a>
                                 </Typography>   
                             </Box>
                                 </Grid>
@@ -290,6 +316,56 @@ const Resume = () => {
 
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum atque, quisquam culpa ex.
                                 </Typography>
+                            </Box>
+                                {/* third layer */}
+                            <Divider component={"nav"} sx={{
+                                        border:2,
+                                        my:2
+                                    }}/> 
+                            <Box>
+                            <Typography 
+                                            fontSize={{xs:12, md:20}}
+                                            textAlign={"center"}
+                                            fontWeight={700}
+                                            mb={1}
+                                        >
+                                        {projects[0].name}
+                                </Typography>
+                                <Typography 
+                                    textAlign={"justify"} 
+                                    fontSize={{xs:8, md:15}}
+                                >
+                                    <CardMedia component={"img"} sx={{
+                                        objectFit:"contain",
+                                        
+                                    }}  image={projects[0].img} />
+                                    {projects[0].text} <br />
+                                    {projects[0].text2} :
+                                    <a href={projects[0].link}>{projects[0].link}</a>
+                                </Typography>   
+                            </Box>
+                            <Divider component={"nav"} sx={{
+                                        border:2,
+                                        my:2
+                                    }}/>
+                            <Box>
+                            <Typography 
+                                            fontSize={{xs:12, md:20}}
+                                            textAlign={"center"}
+                                            fontWeight={700}
+                                            mb={1}
+                                        >
+                                        Other Projects
+                                </Typography>
+                                <Typography 
+                                    textAlign={"justify"} 
+                                    fontSize={{xs:8, md:15}}
+                                >
+                                    There are several there projects. <br />
+                                    Check online resume to most of them.<br />
+                                    There are some game projects, fun projects And
+                                    musical projects like drum kit.
+                                </Typography>   
                             </Box>
                         </Grid>
                     </Grid>
