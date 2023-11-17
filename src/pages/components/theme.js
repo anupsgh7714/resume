@@ -1,17 +1,17 @@
 import { createTheme } from "@mui/material";
-import todoV2 from "../../assets/images/todo-v2db.png";
-import ables from "../../assets/images/ables-charity.png";
-import blog from "../../assets/images/blog.png";
-import colorGame from "../../assets/images/color-game.png";
-import drum from "../../assets/images/drum-kit.png";
-import lokdal from "../../assets/images/lokdal.png";
-import secrets from "../../assets/images/secrets.png";
-import seglko from "../../assets/images/seglko.png";
-import simon from "../../assets/images/simon-game.png";
-import symstech from "../../assets/images/symstech.png";
-import tindog from "../../assets/images/tindog.png";
-import unify from "../../assets/images/unify-markets.png";
-import ecom from "../../assets/images/ecom.png";
+import todoV2 from "../../images/todo-v2db.png";
+import ables from "../../images/ables-charity.png";
+import blog from "../../images/blog.png";
+import colorGame from "../../images/color-game.png";
+import drum from "../../images/drum-kit.png";
+import lokdal from "../../images/lokdal.png";
+import secrets from "../../images/secrets.png";
+import seglko from "../../images/seglko.png";
+import simon from "../../images/simon-game.png";
+import symstech from "../../images/symstech.png";
+import tindog from "../../images/tindog.png";
+import unify from "../../images/unify-markets.png";
+import ecom from "../../images/ecom.png";
 
 const theme = createTheme({
   palette: {

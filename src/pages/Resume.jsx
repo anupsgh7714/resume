@@ -3,9 +3,9 @@ import Grid from "@mui/material/Grid";
 // import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import { Box, Card, CardMedia, Container, Divider, ThemeProvider, Typography,  } from "@mui/material";
 import { theme } from "./components/theme";
-import electrical from "../assets/images/electrical.png";
-import a from "../assets/images/a.jpg";
-import resume from "../assets/images/resume.png";
+import electrical from "../images/electrical.png";
+import a from "../images/a.jpg";
+import resume from "../images/resume.png";
 import { projects } from "./components/theme";
 
 const Resume = () => {
