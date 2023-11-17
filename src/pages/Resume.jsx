@@ -204,7 +204,7 @@ const Resume = () => {
                                         </Typography>
                                         <Typography textAlign={"justify"} fontSize={{xs:8, md:15}}>
                                             He has done his graduation from Ymca, Haryana in B.Voc(W.D) in year 2018-2021 with 
-                                            above 9 cgpa. And passed out 12th with 80% from A.D. sr. sec schoolin 2018.
+                                            above 9 cgpa. And passed out 12th with 80% from A.D. sr. sec school in 2018.
                                             And 10th in 2016 from same school with 8.4 cgpa.
                                         </Typography>
                                     </Box>
