@@ -11,6 +11,7 @@ import simon from "../../assets/images/simon-game.png";
 import symstech from "../../assets/images/symstech.png";
 import tindog from "../../assets/images/tindog.png";
 import unify from "../../assets/images/unify-markets.png";
+import ecom from "../../assets/images/ecom.png";
 
 const theme = createTheme({
   palette: {
